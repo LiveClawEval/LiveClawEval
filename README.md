@@ -18,6 +18,7 @@
 
 <p align="center">
   <a href="README.zh-CN.md">中文文档</a> •
+  <a href="https://arxiv.org/abs/2604.28139">Paper</a> •
   <a href="#-leaderboard">Leaderboard</a> •
   <a href="#-visual-tour">Visual Tour</a> •
   <a href="#-tasks">Tasks</a> •
@@ -26,6 +27,8 @@
 </p>
 
 <p align="center">
+  <a href="https://arxiv.org/abs/2604.28139"><img alt="arXiv" src="https://img.shields.io/badge/arXiv-2604.28139-b31b1b"></a>
+  <a href="https://arxiv.org/pdf/2604.28139"><img alt="Paper PDF" src="https://img.shields.io/badge/PDF-paper-red"></a>
   <a href="https://claw-eval-live.github.io/#/leaderboard"><img alt="Tasks" src="https://img.shields.io/badge/tasks-105-blue"></a>
   <a href="https://claw-eval-live.github.io/#/leaderboard"><img alt="Families" src="https://img.shields.io/badge/families-17-green"></a>
   <a href="https://claw-eval-live.github.io/#/leaderboard"><img alt="Models" src="https://img.shields.io/badge/frontier%20models-13-orange"></a>
@@ -176,6 +179,7 @@ Enterprise agent workloads move quickly: new tool-use patterns appear, older wor
 
 ## 📚 Docs & Links
 
+- 📄 Paper: [arXiv:2604.28139](https://arxiv.org/abs/2604.28139) · [PDF](https://arxiv.org/pdf/2604.28139)
 - 🌐 Website and leaderboard: [claw-eval-live.github.io](https://claw-eval-live.github.io/)
 - 📊 Leaderboard route: [claw-eval-live.github.io/#/leaderboard](https://claw-eval-live.github.io/#/leaderboard)
 - 🇨🇳 中文 README: [README.zh-CN.md](README.zh-CN.md)
@@ -196,17 +200,19 @@ Enterprise agent workloads move quickly: new tool-use patterns appear, older wor
 - [ ] Q2 2026 refresh: next ClawHub signal re-ingestion and task-family reweighting.
 - [ ] Public dataset mirror.
 - [ ] Multi-turn extension with simulated user personas.
-- [ ] arXiv preprint link and camera-ready BibTeX.
 - [ ] Short demo GIFs for the website and README.
 
 ## 📖 Citation
 
 ```bibtex
-@misc{clawevallive2026,
-  title  = {Claw-Eval-Live: A Live Agent Benchmark for Evolving Real-World Workflow},
-  author = {Claw-Eval-Live Team},
-  year   = {2026},
-  url    = {https://claw-eval-live.github.io/}
+@misc{li2026clawevalliveliveagentbenchmark,
+  title={Claw-Eval-Live: A Live Agent Benchmark for Evolving Real-World Workflows},
+  author={Chenxin Li and Zhengyang Tang and Mingxin Huang and Yunlong Lin and Shijue Huang and Shengyuan Liu and Bowen Ye and Rang Li and Lei Li and Benyou Wang and Yixuan Yuan},
+  year={2026},
+  eprint={2604.28139},
+  archivePrefix={arXiv},
+  primaryClass={cs.SE},
+  url={https://arxiv.org/abs/2604.28139},
 }
 ```
 

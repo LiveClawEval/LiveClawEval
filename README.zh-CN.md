@@ -18,12 +18,15 @@
 
 <p align="center">
   <a href="README.md">English</a> •
+  <a href="https://arxiv.org/abs/2604.28139">论文</a> •
   <a href="https://claw-eval-live.github.io/#/leaderboard">在线排行榜</a> •
   <a href="#-快速开始">快速开始</a> •
   <a href="#-引用">引用</a>
 </p>
 
 <p align="center">
+  <a href="https://arxiv.org/abs/2604.28139"><img alt="arXiv" src="https://img.shields.io/badge/arXiv-2604.28139-b31b1b"></a>
+  <a href="https://arxiv.org/pdf/2604.28139"><img alt="Paper PDF" src="https://img.shields.io/badge/PDF-paper-red"></a>
   <a href="https://claw-eval-live.github.io/#/leaderboard"><img alt="Tasks" src="https://img.shields.io/badge/tasks-105-blue"></a>
   <a href="https://claw-eval-live.github.io/#/leaderboard"><img alt="Families" src="https://img.shields.io/badge/families-17-green"></a>
   <a href="https://claw-eval-live.github.io/#/leaderboard"><img alt="Models" src="https://img.shields.io/badge/frontier%20models-13-orange"></a>
@@ -102,14 +105,22 @@ liveclaw-500 run \
 
 从 `config_template.yaml` 复制一份模型配置，然后填写 provider 的 `api_key`、`base_url` 和 `model_id`。
 
+## 📚 论文链接
+
+- 📄 arXiv: [2604.28139](https://arxiv.org/abs/2604.28139)
+- 📥 PDF: [arxiv.org/pdf/2604.28139](https://arxiv.org/pdf/2604.28139)
+
 ## 📖 引用
 
 ```bibtex
-@misc{clawevallive2026,
-  title  = {Claw-Eval-Live: A Live Agent Benchmark for Evolving Real-World Workflow},
-  author = {Claw-Eval-Live Team},
-  year   = {2026},
-  url    = {https://claw-eval-live.github.io/}
+@misc{li2026clawevalliveliveagentbenchmark,
+  title={Claw-Eval-Live: A Live Agent Benchmark for Evolving Real-World Workflows},
+  author={Chenxin Li and Zhengyang Tang and Mingxin Huang and Yunlong Lin and Shijue Huang and Shengyuan Liu and Bowen Ye and Rang Li and Lei Li and Benyou Wang and Yixuan Yuan},
+  year={2026},
+  eprint={2604.28139},
+  archivePrefix={arXiv},
+  primaryClass={cs.SE},
+  url={https://arxiv.org/abs/2604.28139},
 }
 ```
 
